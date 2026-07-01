@@ -3,7 +3,7 @@ class Solution {
         if(a==0){
             return b;
         }else{
-            return Gcd(b%a,a);
+            return Gcd(b%a,a);// euclidian formula
         }
     }
 
